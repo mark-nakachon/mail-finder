@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "email-finder",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+      "https://mail.google.com/*"
+    ],
+    "js": ["script.js"]
+  }
+]
+}
+
